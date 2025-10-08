@@ -149,3 +149,61 @@ li {
 .go-up-btn:hover {
   opacity: 1;
 }
+
+.check-button, .send-button {
+  width: 13.4vw;
+  height: 2vw;
+  border: none;
+  border-radius: 20px;
+  background-color: #171717;
+  color: white;
+  font-family: 'SuisseIntl', Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.check-button:hover, .send-button:hover {
+  cursor: pointer;
+  background-color: #303030;
+}
+
+label, input {
+  font-family: 'SuisseIntl', Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+input {
+  background-color: #BEBAC0;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding-left: 20px;
+  width: 13.4vw;
+  height: 2vw;
+}
+
+#task-form {
+  margin-top: 6.8vw;
+}
+
+#task-form p {
+  margin-bottom: 10px;
+}
+
+.form-str {
+  display: flex;
+  width: 35.2vw;
+  justify-content: space-between;
+}
+
+textarea {
+  width: 33vw;
+  height: 6vw;
+  background-color: #BEBAC0;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 20px;
+  font-family: 'SuisseIntl', Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+}

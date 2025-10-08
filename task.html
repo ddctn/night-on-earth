@@ -17,3 +17,50 @@
       <p class="nav-item"><a href="contacts.html">контакты</a></p>
     </nav>
   </header>
+
+  <main>
+      <h1>Задача 1001</h1>
+      <hr>
+      <form action="https://www.bing.com/search?" id="task-form" name="task-form" target="_blank">
+        <p>
+          <textarea name="task" id="task">Имеется коробка со сторонами: A × B × C. Определить, пройдёт ли она в дверь с размерами M × K.</textarea>
+        </p>
+        <p class="form-str">
+          <label for="search">куда отправить:</label>
+          <input value="search" name="q">
+        </p>
+        <p class="form-str">
+          <label for="a">ширина коробки (A):</label>
+          <input type="number" name="a" id="a" value="10">
+        </p>
+        <p class="form-str">
+          <label for="b">высота коробки (B):</label>
+          <input type="number" name="b" id="b" value="10">
+        </p>
+        <p class="form-str">
+          <label for="c">глубина коробки (C):</label>
+          <input type="number" name="c" id="c" value="10">
+        </p>
+        <p class="form-str">
+          <label for="m">ширина дверного проема (M):</label>
+          <input type="number" name="m" id="m" value="30">
+        </p>
+        <p class="form-str">
+          <label for="k">высота дверного проема (K):</label>
+          <input type="number" name="k" id="k" value="50">
+        </p>
+
+        <div class="form-actions">
+          <button type="button" class="check-button" id="check">проверить</button>
+          <button type="button" class="send-button" id="send">отправить</button>
+        </div>
+
+        <p id="result"></p>
+        <p id="error"></p>
+      </form>
+
+  </main>
+
+  <script src="task.js"></script>
+</body>
+</html>
