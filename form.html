@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NoE Connect</title>
+  <title>NoE Tickets</title>
   <link rel="stylesheet" href="./stylesheets/style.css">
   <link rel="shortcut icon" href="./img/favicon.svg" type="image/x-icon">
 </head>
@@ -12,8 +12,64 @@
     <nav>
       <p class="nav-item"><a href="index.html">главная</a></p>
       <p class="nav-item"><a href="sessions.html">сеансы</a></p>
-      <p class="nav-item"><a href="form.html"><span class="current-page">обратная связь</span></a></p>
+      <p class="nav-item"><a href="form.html"><span class="current-page">билеты</span></a></p>
       <p class="nav-item"><a href="task.html">задача</a></p>
       <p class="nav-item"><a href="contacts.html">контакты</a></p>
     </nav>
   </header>
+<main>
+  <form action="https://google.com" id="personal_data" name="personal_data" target="_blank" method="get">
+
+    <p class="form-str">
+      <label for="last-name">Фамилия</label>
+      <input type="text" name="last-name" id="last-name" value="Кубрик" autocomplete="off">
+    </p>
+
+    <p class="form-str">
+      <label for="first-name">Имя</label>
+      <input type="text" name="first-name" id="first-name" value="Стэнли" autocomplete="off">
+    </p>
+
+    <p class="form-str">
+      <label for="mobile-number">Номер телефона</label>
+      <input type="number" name="mobile-number" id="mobile-number" value="89778779707" autocomplete="off">
+    </p>
+
+    <p class="form-str">
+      <label for="email">Электронная почта</label>
+      <input type="email" name="email" id="email" value="kubrick@example.com" autocomplete="off">
+    </p>
+
+    <legend>Выберите сеанс</legend>
+    <label>
+      <input type="radio" name="movie">
+      Яд для фей 21:00
+    </label>
+    <label>
+      <input type="radio" name="movie">
+      Леон 19:00
+    </label>
+    <label>
+      <input type="radio" name="movie">
+      Аризонская мечта 18:00
+    </label>
+
+    <label>
+      <input type="checkbox" name="agreement">
+      Согласие на обработку персональных данных
+    </label>
+
+    <p class="form-str">
+      <label for="mobile-number">Количество билетов</label>
+      <input type="number" name="tickets-amount" id="tickets-amount" value="1" autocomplete="off">
+    </p>
+
+    <input type="date" value="2025-10-16">
+    <input type="password" name="" id="" value="9494949" autocomplete="off">
+    <input type="hidden" value="" autocomplete="off"><br>
+
+    <button type="submit" class="send-button" id="send-button">отправить данные</button>
+  </form>
+</main>
+</body>
+</html>

@@ -25,6 +25,10 @@ header {
   margin-left: 5vw;
 }
 
+.index-pic:hover{
+  scale: 0.9;
+}
+
 .nav-item:hover{
   letter-spacing: 1.5px;
 }
@@ -160,6 +164,15 @@ li {
   font-family: 'SuisseIntl', Arial, Helvetica, sans-serif;
   font-size: 22px;
   font-weight: 400;
+  margin-top: 1vw;
+}
+
+img {
+  transition: 0.5s ease;
+}
+
+.index-poster:hover {
+  scale: 1.05;
 }
 
 .check-button:hover, .send-button:hover {
@@ -194,6 +207,7 @@ input {
   display: flex;
   width: 35.2vw;
   justify-content: space-between;
+  margin-bottom: 20px;
 }
 
 textarea {
@@ -206,4 +220,141 @@ textarea {
   font-family: 'SuisseIntl', Arial, Helvetica, sans-serif;
   font-size: 22px;
   font-weight: 400;
+}
+
+table {
+  width: 55vw;
+  height: 570px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  background-image: url(../img/table_bg.svg);
+  background-size: 100%;
+  background-position: 0 10%;
+  background-repeat: no-repeat;
+  margin-left: -10%;
+}
+
+th {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+tbody td {
+  width: 300px;
+  height: 450px;
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.table-td-1 {
+  background-image: url(../img/poster_4.png);
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.table-td-2 {
+  background-image: url(../img/poster_5.jpg);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: 76%;
+}
+
+.table-td-3 {
+  background-image: url(../img/poster_6.png);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: 70%;
+}
+
+tfoot td {
+  padding: 30px;
+  background-color: #B28DC4;
+}
+
+tfoot td:hover {
+  background-color: #c8a6d8;
+}
+
+td a {
+  margin-left: 41%;
+}
+
+input[type='radio'] {
+  width: 30px;
+  accent-color: #B28DC4;
+}
+
+input[type='checkbox'] {
+  width: 30px;
+  accent-color: #B28DC4;
+}
+
+legend {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.passport-sec {
+  position: relative;
+  overflow: hidden;
+}
+
+.passpic {
+  position: absolute;
+  width: 8vw;
+  margin-left: -26.4vw;
+  margin-top: 24vw;
+}
+
+.passport-info p {
+  position: absolute;
+}
+
+.passport-info p:nth-child(1){
+  margin-top: -17vw;
+  margin-left: 13vw;
+}
+
+.passport-info p:nth-child(2){
+  margin-top: -14.1vw;
+  margin-left: 13vw;
+}
+
+.passport-info p:nth-child(3){
+  margin-top: -10vw;
+  margin-left: 13vw;
+}
+
+.translate-btn {
+  font-size: 22px;
+  border: none;
+  color: white;
+  background-color: #303030;
+  padding: 10px 20px;
+  border-radius: 50px;
+  transition: 0.4s ease;
+  margin-top: 1vw;
+}
+
+.translate-btn:hover{
+  background-color: #171717;
+  cursor: pointer;
+}
+
+.translate-btn:active{
+  background-color: black;
+}
+
+.devtoolsinfo {
+  margin-top: 5vw;
+  margin-bottom: 5vw;
 }
