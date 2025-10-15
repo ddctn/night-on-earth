@@ -26,10 +26,6 @@ header {
   margin-left: 5vw;
 }
 
-.index-pic-2 {
-  width: 700px;
-}
-
 .index-pic:hover{
   scale: 0.9;
 }
@@ -374,4 +370,8 @@ ol ul {
 
 input[type="text"][value="Кубрик"] {
   color: #303030;
+}
+
+.blank-picture{
+  margin-left: 18%;
 }
