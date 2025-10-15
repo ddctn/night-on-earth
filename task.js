@@ -37,10 +37,10 @@ function verify() {
   }
 }
 
-// function sendForm() {
-//   if(check){
-//     form.submit();
-//   } else {
-//     err.innerHTML = 'Коробка не пройдет в дверь, попробуйте снова.';
-//   }
-// }
+function sendForm() {
+  if(check){
+    form.submit();
+  } else {
+    err.innerHTML = 'Коробка не пройдет в дверь, попробуйте снова.';
+  }
+}
