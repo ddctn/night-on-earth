@@ -21,8 +21,13 @@ header {
 }
 
 .index-pic {
-  margin-top: 2vw;
+  width: 100px;
+  height: 100px;
   margin-left: 5vw;
+}
+
+.index-pic-2 {
+  width: 700px;
 }
 
 .index-pic:hover{
@@ -357,4 +362,16 @@ label {
 .devtoolsinfo {
   margin-top: 5vw;
   margin-bottom: 5vw;
+}
+
+.sessions-list {
+  margin-left: -4.5vw;
+}
+
+ol ul {
+  margin-top: 0;
+}
+
+input[type="text"][value="Кубрик"] {
+  color: #303030;
 }
