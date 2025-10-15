@@ -375,3 +375,15 @@ input[type="text"][value="Кубрик"] {
 .blank-picture{
   margin-left: 18%;
 }
+.sessions-h1 {
+  margin-left: -6vw;
+}
+
+.sessions-h1 ~ hr {
+  margin-left: -6vw;
+  width: 55vw;
+}
+
+.tickets-form {
+  margin-top: 2vw;
+}
