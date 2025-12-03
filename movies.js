@@ -5,7 +5,6 @@ const moviesList = document.getElementById('movies-list');
 async function getResponse() {
   let response = await fetch('./movies.json');
   let content = await response.text();
-  console.log(text);
   content = JSON.parse(content);
   content = content.splice(0, 6);
   console.log(content);
