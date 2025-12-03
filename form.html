@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="./stylesheets/style.css">
   <link rel="shortcut icon" href="./img/favicon.svg" type="image/x-icon">
   <script src="./main.js" defer></script>
+  <script src="./movies.js" defer></script>
 </head>
 <body>
   <header>
@@ -58,18 +59,8 @@
     </p>
 
     <legend>Выберите сеанс</legend>
-    <label>
-      <input type="radio" name="movie">
-      Яд для фей 21:00
-    </label>
-    <label>
-      <input type="radio" name="movie">
-      Леон 19:00
-    </label>
-    <label>
-      <input type="radio" name="movie">
-      Аризонская мечта 18:00
-    </label>
+
+    <ul class="movies-list" id="movies-list"></ul>
 
     <label>
       <input type="checkbox" name="agreement">

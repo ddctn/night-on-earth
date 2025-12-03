@@ -1,20 +1,50 @@
 [
   {
-    "key": "value"
+   "id": "1",
+    "title": "Матч поинт",
+    "year": "2005",
+    "director": "Вуди Аллен",
+    "price": 700,
+    "img": "./img/movies/01.webp"
   },
   {
-    "key": "value"
+    "id": "2",
+    "title": "Гаттака",
+    "year": "1997",
+    "director": "Эндрю Никкол",
+    "price": 800,
+    "img": "./img/movies/02.webp"
   },
   {
-    "key": "mvalue"
+     "id": "3",
+    "title": "Умница Уилл Хантинг",
+    "year": "1997",
+    "director": "Гас Ван Сент",
+    "price": 750,
+    "img": "./img/movies/03.webp"
   },
   {
-    "key": "value"
+    "id": "4",
+    "title": "Общество мертвых поэтов",
+    "year": "1989",
+    "director": "Питер Уир",
+    "price": 650,
+    "img": "./img/movies/04.webp"
   },
   {
-    "key": "value"
+     "id": "5",
+    "title": "Игры разума",
+    "year": "2001",
+    "director": "Рон Ховард",
+    "price": 800,
+    "img": "./img/movies/05.webp"
   },
   {
-    "key": "mvalue"
+     "id": "6",
+    "title": "Октябрьское небо",
+    "year": "1999",
+    "director": "Джо Джонстон",
+    "price": 750,
+    "img": "./img/movies/06.webp"
   }
 ]
