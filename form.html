@@ -6,18 +6,29 @@
   <title>NoE Tickets</title>
   <link rel="stylesheet" href="./stylesheets/style.css">
   <link rel="shortcut icon" href="./img/favicon.svg" type="image/x-icon">
+  <script src="./main.js" defer></script>
 </head>
 <body>
   <header>
-    <nav>
+    <nav class="desktop-nav">
       <p class="nav-item"><a href="index.html">главная</a></p>
       <p class="nav-item"><a href="sessions.html">сеансы</a></p>
       <p class="nav-item"><a href="form.html"><span class="current-page">билеты</span></a></p>
       <p class="nav-item"><a href="task.html">задача</a></p>
-      <p class="nav-item"><a href="contacts.html">контакты</a></p>
       <p class="nav-item"><a href="https://yandex.ru/maps/-/CLR-qFoI" target="_blank">адрес</a></p>
     </nav>
-    <a href="./picture.html" target="_blank"><img class="index-pic" src="./img/index-pic-2.png" alt="pic"></a>
+    <div class="nav-toggle hamburger" id="nav-toggle">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <nav class="mobile-nav" id="mobile-nav">
+      <p class="nav-item"><a href="index.html">главная</a></p>
+      <p class="nav-item"><a href="sessions.html">сеансы</a></p>
+      <p class="nav-item"><a href="form.html"><span class="current-page">билеты</span></a></p>
+      <p class="nav-item"><a href="task.html">задача</a></p>
+      <p class="nav-item"><a href="https://yandex.ru/maps/-/CLR-qFoI" target="_blank">адрес</a></p>
+    </nav>
   </header>
 <main>
 
@@ -73,7 +84,6 @@
     </p>
 
     <input type="date" value="2025-10-16">
-    <input type="password" name="" id="" value="9494949" autocomplete="off">
     <input type="hidden" value="" autocomplete="off"><br>
 
     <button type="submit" class="send-button" id="send-button">отправить данные</button>
