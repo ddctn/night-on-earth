@@ -1,95 +1,34 @@
-body, html {
-  background-color: #BEBAC0;
-  font-family: 'SuisseIntl', Arial, Helvetica, sans-serif;
-  overflow-x: hidden;
-}
-
-p {
-  font-size: 22px;
-}
-
-a {
-  color: black;
-  transition: 0.5s ease;
-  font-weight: 400;
-  font-size: 22px;
-}
-
-header {
-  height: 25.26vw;
-  position: fixed;
-}
-
-.index-pic {
-  width: 100px;
-  height: 100px;
-  margin-left: 5vw;
+/* .index-pic {
+  width: 100rem;
+  height: 100rem;
+  left: 100rem;
+  top: 100rem;
+  position: absolute;
 }
 
 .index-pic:hover{
   scale: 0.9;
-}
-
-.nav-item:hover{
-  letter-spacing: 1.5px;
-}
-
-.current-page {
-  font-weight: 700;
-}
-
-nav {
-  margin-top: 5.78vw;
-  margin-left: 5vw;
-  height: 20vw;
-}
-
-.nav-item {
-  margin-bottom: 23px;
-}
-
-main {
-  margin-top: 4.74vw;
-  margin-left: 40vw;
-}
-
-h1 {
-  font-size: 42px;
-  font-weight: 700;
-}
-
-h2 {
-  font-size: 22px;
-  font-weight: 500;
-}
-
-hr {
-  background-color: black;
-  border: none;
-  height: 1px;
-  width: 52vw;
-  margin-left: 0;
-}
+} */
 
 .section-1 {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  margin-top: 1vw;
+  margin-top: 26rem;
 }
 
 .poster-blocks {
-  width: 52vw;
+  width: 1014rem;
   display: flex;
   justify-content: space-between;
-  margin-top: 3.125vw;
+  margin-top: 60rem;
 }
 
 .poster-info-block {
   display: flex;
   justify-content: space-between;
   margin-top: 1vw;
-  font-size: 22px;
+  font-size: 22rem;
 }
 
 .index-poster {
@@ -97,7 +36,7 @@ hr {
 }
 
 .section-2, .section-3, .section-4, .section-5, .section-6 {
-  margin-top: 2.8vw;
+  margin-top: 60rem;
 }
 
 ol {
@@ -113,8 +52,8 @@ ul {
 }
 
 li {
-  font-size: 22px;
-  margin-bottom: 5px;
+  font-size: 22rem;
+  margin-bottom: 5rem;
 }
 
 .section-3 {
@@ -126,7 +65,7 @@ li {
 }
 
 .section-5 {
-  height: 29vw;
+  height: 500rem;
 }
 
 .section-5 p:first-of-type {
@@ -138,17 +77,18 @@ li {
 }
 
 .section-6 {
-  height: 6vw;
+  height: 200rem;
 }
 
 .go-up-btn {
   border: none;
   background: transparent;
-  font-family: 'SuisseIntl', Arial, Helvetica, sans-serif;
-  font-size: 22px;
+  font-family: 'Stetica';
+  font-size: 22rem;
   font-weight: 500;
   opacity: 0.7;
   transition: 0.5s ease;
+  margin-bottom: 200rem;
 }
 
 .go-up-btn:hover {
@@ -159,11 +99,11 @@ li {
   width: 13.4vw;
   height: 2vw;
   border: none;
-  border-radius: 20px;
+  border-radius: 20rem;
   background-color: #171717;
   color: white;
-  font-family: 'SuisseIntl', Arial, Helvetica, sans-serif;
-  font-size: 22px;
+  font-family: 'Stetica';
+  font-size: 22rem;
   font-weight: 400;
   margin-top: 1vw;
 }
@@ -182,16 +122,16 @@ img {
 }
 
 label, input {
-  font-family: 'SuisseIntl', Arial, Helvetica, sans-serif;
-  font-size: 22px;
+  font-family: 'Stetica';
+  font-size: 22rem;
   font-weight: 400;
 }
 
 input {
   background-color: #BEBAC0;
-  border: 1px solid black;
-  border-radius: 20px;
-  padding-left: 20px;
+  border: 1rem solid black;
+  border-radius: 20rem;
+  padding-left: 20rem;
   width: 13.4vw;
   height: 2vw;
 }
@@ -201,59 +141,62 @@ input {
 }
 
 #task-form p {
-  margin-bottom: 10px;
+  margin-bottom: 10rem;
 }
 
 .form-str {
   display: flex;
   width: 35.2vw;
   justify-content: space-between;
-  margin-bottom: 20px;
+  margin-bottom: 20rem;
 }
 
 textarea {
   width: 33vw;
   height: 6vw;
   background-color: #BEBAC0;
-  border: 1px solid black;
-  border-radius: 20px;
-  padding: 20px;
-  font-family: 'SuisseIntl', Arial, Helvetica, sans-serif;
-  font-size: 22px;
+  border: 1rem solid black;
+  border-radius: 20rem;
+  padding: 20rem;
+  font-family: 'Stetica';
+  font-size: 22rem;
   font-weight: 400;
 }
 
 table {
   width: 55vw;
-  height: 570px;
-  border: 1px solid black;
+  height: 570rem;
+  border: 1rem solid black;
   border-collapse: collapse;
   background-image: url(../img/table_bg.svg);
   background-size: 100%;
   background-position: 0 10%;
   background-repeat: no-repeat;
-  margin-left: -10%;
+  margin-top: 20rem;
 }
 
 th {
-  border: 1px solid black;
-  padding: 10px;
+  border: 1rem solid black;
+  padding: 10rem;
   text-align: center;
+  font-size: 22rem;
 }
 
 tbody td {
-  width: 300px;
-  height: 450px;
-  border: 1px solid black;
-  padding: 10px;
+  width: 300rem;
+  height: 545rem;
+  border: 1rem solid black;
+  padding: 10rem;
   text-align: center;
   font-weight: 700;
+  font-size: 22rem;
 }
 
 .table-td-1 {
   background-image: url(../img/poster_4.png);
   background-repeat: no-repeat;
   background-position: 50%;
+  background-size: 65%;
 }
 
 .table-td-2 {
@@ -271,7 +214,7 @@ tbody td {
 }
 
 tfoot td {
-  padding: 30px;
+  padding: 30rem;
   background-color: #B28DC4;
 }
 
@@ -284,24 +227,24 @@ td a {
 }
 
 input[type='radio'] {
-  width: 30px;
+  width: 30rem;
   accent-color: #B28DC4;
 }
 
 input[type='checkbox'] {
-  width: 30px;
+  width: 30rem;
   accent-color: #B28DC4;
 }
 
 legend {
-  font-size: 22px;
-  margin-bottom: 15px;
+  font-size: 22rem;
+  margin-bottom: 15rem;
 }
 
 label {
   display: flex;
   align-items: center;
-  margin-bottom: 15px;
+  margin-bottom: 15rem;
 }
 
 .passport-sec {
@@ -336,12 +279,12 @@ label {
 }
 
 .translate-btn {
-  font-size: 22px;
+  font-size: 22rem;
   border: none;
   color: white;
   background-color: #303030;
-  padding: 10px 20px;
-  border-radius: 50px;
+  padding: 10rem 20rem;
+  border-radius: 50rem;
   transition: 0.4s ease;
   margin-top: 1vw;
 }
@@ -374,14 +317,6 @@ input[type="text"][value="Кубрик"] {
 
 .blank-picture{
   margin-left: 18%;
-}
-.sessions-h1 {
-  margin-left: -6vw;
-}
-
-.sessions-h1 ~ hr {
-  margin-left: -6vw;
-  width: 55vw;
 }
 
 .tickets-form {

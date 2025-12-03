@@ -1,20 +1,17 @@
 @font-face {
-  font-family: 'SuisseIntl';
-  src: url(../fonts/SuisseIntl-Bold.woff),
-       url(../fonts/SuisseIntl-Bold.woff2);
+  font-family: 'Stetica';
+  src: url(../fonts/AASteticaBold.otf);
   font-weight: 700;
 }
 
 @font-face {
-  font-family: 'SuisseIntl';
-  src: url(../fonts/SuisseIntl-Medium.woff),
-       url(../fonts/SuisseIntl-Medium.woff2);
+  font-family: 'Stetica';
+  src: url(../fonts/AASteticaMedium.otf);
   font-weight: 500;
 }
 
 @font-face {
-  font-family: 'SuisseIntl';
-  src: url(../fonts/SuisseIntl-Regular.woff),
-       url(../fonts/SuisseIntl-Regular.woff2);
+  font-family: 'Stetica';
+  src: url(../fonts/AASteticaRegular.otf);
   font-weight: 400;
 }
