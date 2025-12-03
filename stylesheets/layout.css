@@ -132,7 +132,7 @@ input {
   border: 1rem solid black;
   border-radius: 20rem;
   padding-left: 20rem;
-  width: 13.4vw;
+  width: 300rem;
   height: 2vw;
 }
 
@@ -311,7 +311,7 @@ ol ul {
   margin-top: 0;
 }
 
-input[type="text"][value="Кубрик"] {
+input {
   color: #303030;
 }
 
@@ -321,4 +321,27 @@ input[type="text"][value="Кубрик"] {
 
 .tickets-form {
   margin-top: 2vw;
+}
+
+.movie-title, .movie-year, .movie-director, .ticket-price, .card-text, .ticket-amount {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
+.movies-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.movie-card {
+  flex-basis: 30%;
+  width: 400rem;
+}
+
+.movie-card-img {
+  height: 450rem;
+}
+
+.tickets-form {
+  margin-bottom: 200rem;
 }

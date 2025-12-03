@@ -15,13 +15,16 @@ async function getResponse() {
   }
   for (const key in content) {
     moviesList.innerHTML += `
-      <li style="width: 210px" class="d-flex flex-column m-1 p-1 border bg-body">
-      <img style="width: 180px" class="align-self-center" src=${content[key].img}>
-      <h5 class="card-subtitle">${content[key].title}</h5>
-      <p class="card-text">${content[key].director}. Цена ${content[key].price} р.</p>
-      <input type="hidden" name= "year" value=${content[key].year}>
-      <p class="card-text" >Заказать <input class="w-25" type="number" name="amount" value="0"></p>
-      </li>
+      <div class="movie-card">
+      <img class="movie-card-img" src=${content[key].img}>
+      <h2 class="movie-title">${content[key].title}</h2>
+      <p class="movie-year">${content[key].year}
+      <p class="movie-director">${content[key].director}</p>
+      <p class="ticket-price">Цена ${content[key].price} р.</p>
+      <input type="hidden" name= "movie-id" value=${content[key].id}>
+      <p class="card-text">Количество билетов</p>
+      <input class="ticket-amount" type="number" name="amount" value="0">
+      </div>
     `
   }
 }

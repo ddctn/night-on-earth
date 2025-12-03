@@ -55,6 +55,13 @@
     height: 100rem;
   }
 
+  .movie-card {
+    flex-basis: 50%;
+  }
+
+  .movie-card-img {
+    height: 550rem;
+  }
 }
 
 @media screen and (max-width: 780px) {
@@ -196,6 +203,12 @@
     height: 200rem;
     font-size: 30rem;
   }
+  .movie-card {
+    flex-basis: 100%;
+  }
+  .movie-card-img {
+    height: 650rem;
+}
 
 }
 
